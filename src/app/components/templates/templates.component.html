@@ -1,0 +1,5 @@
+<div id="template-wrapper" class="template-panel">
+<div class="template-container" *ngFor="let template of templateList">
+  <img #ref draggable [dragData]="ref" [src]="template.download_url">
+</div>
+</div>

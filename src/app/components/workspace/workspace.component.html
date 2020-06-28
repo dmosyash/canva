@@ -1,0 +1,6 @@
+<div class="workspace">
+<app-toolbar class="toolbar" (tilt)="tiltCanvas()"></app-toolbar>
+<div class="canvas-wrapper" droppable (onDrop)="onItemDrop($event)">
+  <canvas #workCanvas class="border-it" width="180" height="320"></canvas>
+</div>
+</div>
